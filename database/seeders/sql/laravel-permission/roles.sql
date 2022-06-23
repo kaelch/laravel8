@@ -1,0 +1,9 @@
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (1, 'personal_master', '인사팀 마스터', 'web', null, null);
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (2, 'personal_member', '인사팀 멤버', 'web', null, null);
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (3, 'personal_intern', '인사팀 인턴', 'web', null, null);
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (4, 'marketing_master', '마케팅팀 마스터', 'web', null, null);
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (5, 'marketing_member', '마케팅팀 멤버', 'web', null, null);
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (6, 'marketing_intern', '마케팅팀 인턴', 'web', null, null);
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (7, 'affairs_master', '총무팀 마스터', 'web', null, null);
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (8, 'affairs_member', '총무팀 멤버', 'web', null, null);
+INSERT INTO laravel8.roles (id, name, description, guard_name, created_at, updated_at) VALUES (9, 'affairs_intern', '총무팀 인턴', 'web', null, null);

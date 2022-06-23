@@ -1,0 +1,12 @@
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (1, '/user r', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (2, '/user c', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (3, '/user u', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (4, '/user d', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (5, '/product r', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (6, '/product c', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (7, '/product u', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (8, '/product d', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (9, '/system r', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (10, '/system c', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (11, '/system u', 'web', null, null);
+INSERT INTO laravel8.permissions (id, name, guard_name, created_at, updated_at) VALUES (12, '/system d', 'web', null, null);

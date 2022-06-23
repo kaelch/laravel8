@@ -1,0 +1,9 @@
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (1, 'App\\Models\\User', 1);
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (2, 'App\\Models\\User', 2);
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (3, 'App\\Models\\User', 3);
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (4, 'App\\Models\\User', 4);
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (5, 'App\\Models\\User', 5);
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (6, 'App\\Models\\User', 6);
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (7, 'App\\Models\\User', 7);
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (8, 'App\\Models\\User', 8);
+INSERT INTO laravel8.model_has_roles (role_id, model_type, model_id) VALUES (9, 'App\\Models\\User', 9);
