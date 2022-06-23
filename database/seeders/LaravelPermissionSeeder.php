@@ -25,6 +25,7 @@ class LaravelPermissionSeeder extends Seeder
         Permission::truncate();
         DB::table('model_has_roles')->truncate();
         DB::table('model_has_permissions')->truncate();
+        DB::table('role_has_permissions')->truncate();
 
         Schema::enableForeignKeyConstraints();
 
