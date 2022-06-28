@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/send_mail', [\App\Http\Controllers\Controller::class,'sendMail']);
+Route::get('/test',function () {
+    return view('welcome');
+})->name('training-dashboard');
+
+Route::get('/getPublicFile', [\App\Http\Controllers\Controller::class,'getPublicFile']);
