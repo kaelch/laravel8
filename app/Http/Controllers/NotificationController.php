@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Notifications\OffersNotification;
+use App\Notifications\SlackNotification;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Notification;
 
@@ -34,5 +35,16 @@ class NotificationController extends Controller
         Notification::send($userSchema, new OffersNotification($offerData));
 
         dd('Task completed!');
+    }
+
+    public function slackNotification()
+    {
+        $user = User::first();
+        $message = '라라벨이 말합니다.';
+//        $user->first()->notify(new SlackNotification($message));
+
+        $users = User::all();
+        Notification::send($users, new SlackNotification($message));
+
     }
 }

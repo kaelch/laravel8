@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/send-notification', [NotificationController::class, 'sendOfferNotification']);
+Route::get('/slack-notification', [NotificationController::class, 'slackNotification']);
