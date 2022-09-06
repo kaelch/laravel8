@@ -17,3 +17,8 @@ jobs:
           npm install
           npm run dev
 
+      - name: Configure PHP 7.4
+        uses: shivammathur/setup-php@master
+        with:
+          php-version: 7.4
+          extensions: mbstring, ctype, fileinfo, openssl, PDO, bcmath, tokenizer, xml
